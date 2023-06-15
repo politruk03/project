@@ -19,6 +19,26 @@
         <!-- import 1st animation, for some reasons it only works if we put it here and not in the css file -->
         <style>
             /*** 1st animation ***/
+            #hero h2 span {
+              animation: animate1 5s linear infinite;
+              font-size: 60px;
+            }
+            
+            #hero h2 span:nth-child(even) {
+              animation-delay: 0.4s;
+            }
+            
+            @keyframes animate1 {
+              0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+                color: #81e3dd;
+              }
+            
+              18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
+                color: #088178;
+              }
+            }
+
+            /* we do this because we will use it again with other design */
             #banner h2 span {
               animation: animate 5s linear infinite;
               font-size: 60px;
