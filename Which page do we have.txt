@@ -1,0 +1,4 @@
+We have 3 pages, this is just a demo webpage so we don't make other pages.
+1, home page, where you will land following click on the link.
+2, shop page, you click on the shop in the navigation bar.
+3, single product page, you either click on the "cart icon" of the first product of the home page or the shop page.
