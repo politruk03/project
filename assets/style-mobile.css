@@ -74,6 +74,10 @@
     #banner {
       height: 20vh;
     }
+
+    #banner h2 span {
+      font-size: 30px;
+    }
   
     #sm-banner .banner-box {
       min-width: 100%;
