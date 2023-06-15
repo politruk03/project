@@ -4,6 +4,8 @@
       padding: 40px 40px; 
     }
 
+    /* design of mobile version navbar,
+        so the idea is to move them of the page, with a little bit of javascript, we can make it hidden and appeared*/
     #navbar {
       display: flex;
       align-items: flex-start;
@@ -129,7 +131,8 @@
       width: 155px;
       margin: 0 0 15px 0;
     }
-  
+
+    /* so when your screen is too small, the product box will be full srceen wide */
     #product1 .pro,
     #product2 .pro {
       width: 100%;
@@ -171,6 +174,8 @@
         font-size: 50px;
     }
 
+    /* little bit of design when your screen is too small,
+          few adjustment to sections' position*/
     #prodetails {
       display: flex;
       flex-direction: column;
