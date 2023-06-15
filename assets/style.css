@@ -15,52 +15,6 @@ body {
   width: 100%;
 }
 
-
-/*** 1st animation ***/
-#banner h2 span {
-  animation: animate 5s linear infinite;
-  font-size: 30px;
-}
-
-#banner h2 span:nth-child(even) {
-  animation-delay: 0.4s;
-}
-
-@keyframes animate {
-  0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
-    color: #e09a9a;
-  }
-
-  18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100% {
-    color: #ef3636;
-  }
-}
-
-/*** 2nd animation ***/
-#page-header span {
-  transition: 0.5s;
-}
-
-#page-header h2:hover span:nth-child(1) {
-  margin-right: 5px;
-}
-
-#page-header h2:hover span:nth-child(1):after {
-  content: "EST ";
-}
-
-#page-header h2:hover span:nth-child(2) {
-  margin-left: 10px;
-}
-
-#page-header h2:hover span {
-  text-shadow: 0 0 10px #fff,
-               0 0 20px #fff,
-               0 0 40px #fff,
-               0 0 80px #fff,
-               0 0 120px #fff
-}
-
 /**** Global Styles for headers, sections ****/
 h1 {
   font-size: 50px;
